@@ -40,7 +40,7 @@ a:hover {
 
 form {
 	background-color: #eff0f2;
-	padding: 5% 5%;
+	padding: 5%;
 	border-radius: 0 0 10px 10px;
 }
 
@@ -50,7 +50,7 @@ input[type="password"] {
 	font-family: caption;
 	border: 4px double #dedee0;
 	padding: 5px;
-	margin: 5% 0 0 0;
+	margin-top: 5%;
 }
 input [text="text"]:focus,
 input [text="password"]:focus {
@@ -89,13 +89,12 @@ input [text="password"]:focus {
 -------------------------------------------------*/
 @media (min-width: 500px) {
 	.login {
-			width: 500px;
-			height: 323;
+		width: 500px;
+		height: 365px;
 	}
-	
 	input[type="text"],
 	input[type="password"] {
-		width: 430;
+		width: 430px;
 		font-size: 20px;
 	}
 	.btn {
@@ -105,13 +104,13 @@ input [text="password"]:focus {
 		margin: 45px 0 0 110px;
 	}
 	.forgot a {
-		margin: 0 0 0 35%;
+		margin-left:35%;
 	}
 	.chk {
-		margin: 5% 0 0 0;
+		margin-top: 5%;
 	}
 	.rem {
-		margin: 5% 0 0 0;
+		margin: 5% 0 0 10px;
 	}
 }
 /*------------------------------------------------
@@ -136,36 +135,12 @@ input [text="password"]:focus {
 		margin: 15% 0 0 7%;
 	}
 	.forgot a {
-		margin: 0 0 0 25%;
+		margin-left: 25%;
 	}
 	.chk {
-		margin: 6% 0 0 0;
+		margin-top: 6%;
 	}
 	.rem {
-		6% 0 0 5%;
+		margin: 6% 0 0 5%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
